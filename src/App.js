@@ -1,24 +1,33 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, {useState,useEffect} from 'react';
 import './App.css';
+import Header from './components/Header';
+import Table from './components/Table';
+
+function Users({user}){
+  return (
+    <div>
+      <h2>{user}</h2>
+    </div>
+  );
+}
 
 function App() {
+  const [data,setData] = useState([])
+
+  useEffect(() => {
+    async function fetchMyAPI() {
+      let response = await fetch('http://localhost:8000/booking')
+      response = await response.json()
+      console.log(response)
+      setData(response)
+    }
+    fetchMyAPI()
+  }, [])
+  
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <Header />
+        <Table dataTable={data}/>
     </div>
   );
 }
