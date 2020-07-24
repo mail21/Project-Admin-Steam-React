@@ -1,0 +1,306 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "fullName": "Ilham Dwi Nugraha",
+      "username": "ilhamnugrahaa",
+      "email": "ilhamdn99@gmail.com",
+      "password": "12345678",
+      "jenisKelamin": "Laki-Laki",
+      "kotaSekarang": "Malromarc",
+      "tanggalLahir": "1999-07-02"
+    },
+    {
+      "id": 2,
+      "fullName": "Izumi Sagiri",
+      "username": "sagiri",
+      "email": "sagiri@gmail.com",
+      "password": "12345678",
+      "jenisKelamin": "Perempuan",
+      "kotaSekarang": "Malromarc",
+      "tanggalLahir": "2020-07-23"
+    },
+    {
+      "id": 3,
+      "fullName": "Mikasa Ackerman",
+      "username": "mikasa",
+      "email": "mikasa@gmail.com",
+      "password": "12345678",
+      "jenisKelamin": "Pria",
+      "kotaSekarang": "Malromarc",
+      "tanggalLahir": "1999-07-2"
+    },
+    {
+      "id": 4,
+      "fullName": "Sumireko Tan",
+      "username": "sumireko",
+      "email": "sumireko@gmail.com",
+      "password": "12345678",
+      "jenisKelamin": "Pria",
+      "kotaSekarang": "Malromarc",
+      "tanggalLahir": "1999-07-2"
+    },
+    {
+      "id": 5,
+      "fullName": "Hinata Shoyou",
+      "username": "hinatash",
+      "email": "hinata@gmail.com",
+      "password": "12345678",
+      "jenisKelamin": "Pria",
+      "kotaSekarang": "Malromarc",
+      "tanggalLahir": "1999-07-2"
+    },
+    {
+      "id": 6,
+      "fullName": "Kageyama Tobio",
+      "username": "kageyama",
+      "email": "kageyama@gmail.com",
+      "password": "12345678",
+      "jenisKelamin": "Pria",
+      "kotaSekarang": "Malromarc",
+      "tanggalLahir": "1999-07-2"
+    },
+    {
+      "id": 7,
+      "fullName": "Yukinoshita",
+      "username": "yukinon",
+      "email": "yukinon@gmail.com",
+      "password": "12345678",
+      "jenisKelamin": "Pria",
+      "kotaSekarang": "Malromarc",
+      "tanggalLahir": "1999-07-2"
+    },
+    {
+      "id": 8,
+      "fullName": "Daichi Isayama",
+      "username": "daichi",
+      "email": "daichi@gmail.com",
+      "password": "12345678",
+      "jenisKelamin": "Pria",
+      "kotaSekarang": "Malromarc",
+      "tanggalLahir": "1999-07-2"
+    },
+    {
+      "id": 9,
+      "fullName": "Nishinoya Yuu",
+      "username": "yuunishi",
+      "email": "yuunishi@gmail.com",
+      "password": "wq32513425",
+      "jenisKelamin": "Pria",
+      "kotaSekarang": "Malromarc",
+      "tanggalLahir": "1999-07-2"
+    },
+    {
+      "id": 10,
+      "fullName": "Uraraka Ochacho",
+      "username": "uraraka",
+      "email": "uraraka@gmail.com",
+      "password": "dgsrzhetr",
+      "jenisKelamin": "Pria",
+      "kotaSekarang": "Malromarc",
+      "tanggalLahir": "1999-07-2"
+    },
+    {
+      "id": 11,
+      "fullName": "Tokoyami Kage",
+      "username": "tokoyami",
+      "email": "tokoyami@gmail.com",
+      "password": "dthdtydy",
+      "jenisKelamin": "Pria",
+      "kotaSekarang": "Malromarc",
+      "tanggalLahir": "1999-07-2"
+    },
+    {
+      "id": 12,
+      "fullName": "Mizuhara Chizuru",
+      "username": "chizuchan",
+      "email": "chizuru@gmail.com",
+      "password": "12345678",
+      "jenisKelamin": "Perempuan",
+      "kotaSekarang": "Nagoya City",
+      "tanggalLahir": "2000-06-21"
+    },
+    {
+      "id": 13,
+      "fullName": "Muhammad Armanditto Maulana",
+      "username": "Ditto to",
+      "email": "dito@yahdito.com",
+      "password": "12345678",
+      "jenisKelamin": "Laki-Laki",
+      "kotaSekarang": "Clover Kingdom",
+      "tanggalLahir": "1999-05-12"
+    }
+  ],
+  "booking": [
+    {
+      "id": 1,
+      "namaPelanggan": "Armanditto",
+      "alamatLengkap": "Gang Kejora No 30 Ciledug, Jakarta Selatan",
+      "nomorTelepon": "086346732524",
+      "waktuSteam": "14/07/2020 13:30",
+      "jenisMobil": "Sedang",
+      "jenisSteam": "Normal",
+      "pesan": "Cukup Sekian dan Terimakasih",
+      "status": "Done"
+    },
+    {
+      "id": 2,
+      "namaPelanggan": "Hans Gorbacep",
+      "alamatLengkap": "Balmondsiaga Boulevard, Depok City, West Java",
+      "nomorTelepon": "0893278461647",
+      "waktuSteam": "2020-07-24T20:27",
+      "jenisMobil": "Sedang",
+      "jenisSteam": "Spesial",
+      "pesan": "Eheeem Eheem",
+      "status": "Done"
+    },
+    {
+      "id": 3,
+      "idUser": 1,
+      "namaPelanggan": "Alif Haniffah",
+      "alamatLengkap": "SouthCity Boulevard, Pams City, South Tangerang",
+      "nomorTelepon": "07126536735",
+      "waktuSteam": "2020-07-24T08:09",
+      "jenisMobil": "Besar",
+      "jenisSteam": "Spesial",
+      "pesan": "Not",
+      "status": "Done"
+    },
+    {
+      "id": 4,
+      "idUser": 1,
+      "namaPelanggan": "Didit Toto",
+      "alamatLengkap": "Zizya Boulevard, Puri Beta, South Jakarta",
+      "nomorTelepon": "018273483476",
+      "waktuSteam": "2020-07-20T17:27",
+      "jenisMobil": "Besar",
+      "jenisSteam": "Biasa",
+      "pesan": "Ini merupakan pesan saya",
+      "status": "Done"
+    },
+    {
+      "id": 5,
+      "idUser": 1,
+      "namaPelanggan": "Riri Zizik",
+      "alamatLengkap": "Pagedangan Boulevard, Tangerang District, Banten",
+      "nomorTelepon": "02132435536",
+      "waktuSteam": "2020-07-21T12:30",
+      "jenisMobil": "Kecil",
+      "jenisSteam": "Spesial",
+      "pesan": "Yang bersih okay",
+      "status": "Done"
+    },
+    {
+      "id": 6,
+      "namaPelanggan": "Saditto Ditto",
+      "alamatLengkap": "Jl. Haah , USV Villagyan , South Tangerang City",
+      "nomorTelepon": "09126347",
+      "waktuSteam": "2020-07-23T18:20",
+      "jenisMobil": "Sedang",
+      "jenisSteam": "Spesial",
+      "pesan": "Yang Spesial Yah",
+      "status": "Done"
+    },
+    {
+      "id": 7,
+      "namaPelanggan": "Hans Izumi",
+      "alamatLengkap": "Malromarc Boulevard, City of Vermillion, Konohagakure",
+      "nomorTelepon": "092837647382",
+      "waktuSteam": "2020-07-22T10:50",
+      "jenisMobil": "Besar",
+      "jenisSteam": "Spesial",
+      "pesan": "I want to eat your pancreas",
+      "status": "Done"
+    },
+    {
+      "id": 8,
+      "namaPelanggan": "Enjoue Kinoshita",
+      "alamatLengkap": "Jl Jalan, Kec Puncak, Gunung",
+      "nomorTelepon": "0349586",
+      "waktuSteam": "2020-07-22T16:28",
+      "jenisMobil": "Besar",
+      "jenisSteam": "Biasa",
+      "pesan": "tes tes",
+      "status": "On Progress"
+    },
+    {
+      "id": 9,
+      "namaPelanggan": "Mihuzara Chizuru",
+      "alamatLengkap": "Boulevard Hanatori, District Kazetsuki, Imawo City",
+      "nomorTelepon": "324354678",
+      "waktuSteam": "2020-07-21T18:30",
+      "jenisMobil": "Sedang",
+      "jenisSteam": "Biasa",
+      "pesan": "彼のガールフレンドにだまされて、感情的に粉々になった大学生木下一也は、モバイルアプリからレンタルガールフレンドを介して彼の心の虚空をなだめようとします。最初は、水原千鶴は完璧な女の子のようで、見栄えが良く、可愛くて思いやりのある性格です。\n\n初デートの後、彼女のプロフィールにさまざまな意見があり、彼の以前の関係にまだ苦しんでいるカズヤは、千鶴が男性の心をいじっていると信じて、彼女に負の評価を残します。チズルはクライアントに対する彼女の無礼さに怒り、カズヤの第一印象とは正反対の生意気で気質のある彼女の本性を明らかにします。その瞬間、和也は祖母の倒壊の知らせを受け取り、千鶴を連れて病院へ連れて行かなければならない。\n\n何の真面目なことでもないのに、祖母は和也がついに彼女の願いであった真面目なガールフレンドを見つけたので有頂天だ。彼女に本当のことを言うことができない、カズヤとチズルは偽の関係を強いられます—彼らは本当に恋人であるかのように振る舞います",
+      "status": "Done"
+    },
+    {
+      "id": 10,
+      "idUser": "1",
+      "namaPelanggan": "Ilham",
+      "alamatLengkap": "qwertyfg",
+      "nomorTelepon": "12345678",
+      "waktuSteam": "2020-07-18T16:44",
+      "jenisMobil": "Kecil",
+      "jenisSteam": "Biasa",
+      "pesan": "sdfzgxgbc",
+      "status": "On Progress"
+    },
+    {
+      "id": 11,
+      "idUser": "2",
+      "namaPelanggan": "Sagiri",
+      "alamatLengkap": "Jl. Jalan, Kec. Puncak , Kota Gunung",
+      "nomorTelepon": "343546758654",
+      "waktuSteam": "2020-07-24T16:02",
+      "jenisMobil": "Kecil",
+      "jenisSteam": "Biasa",
+      "pesan": "adsfgdhfn",
+      "status": "On Progress"
+    },
+    {
+      "id": 12,
+      "idUser": "1",
+      "namaPelanggan": "Listen Timberlake",
+      "alamatLengkap": "Jl. Jalan, Kec. Puncak , Kota Gunung",
+      "nomorTelepon": "12345678",
+      "waktuSteam": "2020-07-11T19:52",
+      "jenisMobil": "Besar",
+      "jenisSteam": "Biasa",
+      "pesan": "123456789fdghtjyku",
+      "status": "On Progress"
+    },
+    {
+      "id": 13,
+      "idUser": "1",
+      "namaPelanggan": "Hans Gorbacep",
+      "alamatLengkap": "Jl. Jalan, Kec. Puncak , Kota Gunung",
+      "nomorTelepon": "1324536476o",
+      "waktuSteam": "2020-07-23T17:51",
+      "jenisMobil": "Sedang",
+      "jenisSteam": "Biasa",
+      "pesan": "rwbtgyth",
+      "status": "On Progress"
+    },
+    {
+      "id": 14,
+      "idUser": "12",
+      "namaPelanggan": "Mizuhara Chizuru",
+      "alamatLengkap": "Jl. Jalan, Kec. Puncak , Kota Gunung",
+      "nomorTelepon": "5362263762",
+      "waktuSteam": "2020-07-30T10:36",
+      "jenisMobil": "Besar",
+      "jenisSteam": "Spesial",
+      "pesan": "Onagai",
+      "status": "On Progress"
+    }
+  ],
+  "admin": [
+    {
+      "id": 1,
+      "email": "admin@admin.com",
+      "username": "admin",
+      "password": "12345678"
+    }
+  ]
+}
