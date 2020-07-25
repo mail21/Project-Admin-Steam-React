@@ -1,9 +1,7 @@
 import React from 'react';
 import './App.css';
-import Header from './components/Header';
-import Pesanan from './components/pesanan-components/Pesanan';
-import Profile from './components/profile-components/Profile';
-import Booking from './components/booking-components/Booking';
+import UsersPage from './user-pages-components/UsersPage';
+import LoginPage from './login-pages-components/LoginPage';
 import {BrowserRouter as Router , Switch, Route} from 'react-router-dom';
 
 function App() {
@@ -12,20 +10,14 @@ function App() {
     <div className="App">
         
         <Router>
-          <Header />
           <Switch>
-            <Route path="/pesanan">
-              <Pesanan />
-            </Route>
-            <Route path="/profile">
-              <Profile />
-            </Route>
-            <Route path="/booking">
-              <Booking />
+            <Route path="/user">
+              <UsersPage />
             </Route>
             <Route path="/" exact>
-              <h1>Home</h1>
+              <LoginPage />
             </Route>
+            <Route path={["/sign-in", "/sign-up"]} component={LoginPage} />
           </Switch>
         </Router>
     </div>
