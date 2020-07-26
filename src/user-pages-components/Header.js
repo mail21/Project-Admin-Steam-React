@@ -12,7 +12,7 @@ export default function Header(){
         <>
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <Link to="/user">
-            <a className="navbar-brand" href="#">Menu Users</a>
+            <span className="navbar-brand">Menu Users</span>
         </Link>
             <div className="collapse navbar-collapse" id="navbarTogglerDemo03">
                 <ul className="navbar-nav mr-auto mt-2 mt-lg-0">

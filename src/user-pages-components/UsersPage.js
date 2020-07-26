@@ -23,7 +23,6 @@ function UsersPage() {
     async function fetchUser(){
       let getUser = await fetch('http://localhost:8000/users')
       let dataFromFetch = await getUser.json()
-      console.log(dataFromFetch);
       dataFromFetch.map(el => {
         if(el.username == username){
           setUser(el)
@@ -47,7 +46,17 @@ function UsersPage() {
               <Profile user={user} />
             </Route>
               <Route path="/user/edit-profile">
-                <FormEditProfile />
+                <FormEditProfile 
+                fullName={user.fullName}
+                username={user.username}
+                email={user.email}
+                password={user.password}
+                jenisKelamin={user.jenisKelamin}
+                kotaSekarang={user.kotaSekarang}
+                tanggalLahir={user.tanggalLahir}
+                id={user.id}
+                password={user.password}
+                />
               </Route>
             <Route path="/user/booking" component={Booking}/>
     </div>
