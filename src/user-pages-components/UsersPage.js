@@ -58,7 +58,9 @@ function UsersPage() {
                 password={user.password}
                 />
               </Route>
-            <Route path="/user/booking" component={Booking}/>
+            <Route path="/user/booking" >
+              <Booking id={user.id} />
+            </Route>
     </div>
   );
 }
