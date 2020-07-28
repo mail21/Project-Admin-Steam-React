@@ -18,7 +18,7 @@ export default function Header() {
             <Link to="/admin-page/profile">
               <li className="nav-item nav-link">Profile</li>
             </Link>
-            <Link to="/admin-page/pesanan">
+            <Link to="/admin-page/pesanan/done">
               <li className="nav-item nav-link">Pesanan</li>
             </Link>
             <Link to="/">

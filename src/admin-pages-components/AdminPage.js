@@ -3,6 +3,7 @@ import Header from "./Header";
 import Profile from "./profile-components/Profile";
 import FormEditProfile from "./profile-components/FormEditProfile";
 import { Route, useHistory } from "react-router-dom";
+import TablePesanan from "./pesanan-components/TablePesanan";
 
 function Hai({ username }) {
   return (
@@ -40,6 +41,9 @@ function AdminPage() {
       </Route>
       <Route path="/admin-page" exact>
         <Hai username={admin.username} />
+      </Route>
+      <Route path="/admin-page/pesanan">
+        <TablePesanan />
       </Route>
       <Route path="/admin-page/edit-profile">
         <FormEditProfile password={admin.password} username={admin.username} email={admin.email} id={admin.id} />
