@@ -17,7 +17,7 @@ function App() {
           <Route path="/" exact>
             <LoginPage />
           </Route>
-          <Route path="/admin-menu" component={AdminPage} />
+          <Route path="/admin-page" component={AdminPage} />
           <Route path="/admin" component={AdminLogin} />
           <Route path={["/sign-in", "/sign-up"]} component={LoginPage} />
         </Switch>
