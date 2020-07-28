@@ -1,0 +1,9 @@
+td {
+    width: 300px;
+}
+
+.container-edit{
+    width : 80%;
+    margin:auto;
+    background-color: lightgray;
+}

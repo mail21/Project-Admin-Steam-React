@@ -15,7 +15,7 @@ function AdminLogin() {
       let dataFetch = await req.json();
       let adakah = dataFetch.filter((el) => el.email == email && el.password == password);
       if (adakah.length > 0) {
-        history.push("/admin-menu");
+        history.push("/admin-page");
         localStorage.setItem("isLoggedIn", true);
         localStorage.setItem("username", adakah[0].username);
       } else {
